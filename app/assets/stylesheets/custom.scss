@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$gray-lighter: #eee;
+
 body{
   padding-top: 60px;
 }
@@ -89,3 +91,30 @@ input {
   }
 }
 
+.edit_heading {
+  text-align: center;
+}
+
+.all_users {
+  h1 {
+    text-align: center;
+  }
+
+  .content {
+    list-style: none;
+    li {
+      overflow: auto;
+      padding: 10px 0;
+      border-bottom: 1px solid $gray-lighter;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      a {
+        vertical-align: center;
+      }
+    }
+  }
+}
